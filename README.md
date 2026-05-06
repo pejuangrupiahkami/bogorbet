@@ -28,15 +28,16 @@ pnpm dev
 # or
 bun dev
 ```
+## Test Hosting
+```
+https://bogorbet.netlify.app/
+```
 
 ## Author 
 ```
 Design and code is completely written by John Kat and development team. 
 ```
-## Test Hosting
-```
-https://bogorbet.netlify.app/
-```
+## License
 
  - Design and Code is Copyright &copy; <a href="https://github.com/johnkat-mj" target="_blank">John Kat</a>
  - Licensed cover under [MIT]
