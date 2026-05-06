@@ -8,8 +8,8 @@ AgenceX adalah solusi landing page modern yang dirancang khusus untuk agensi dig
 
 Anda dapat melihat versi live dari proyek ini yang di-hosting melalui Netlify:
 
-*   **[Official Live Preview](https://bogorbet.netlify.app/)** - Cek tampilan responsif dan kecepatan load.
-
+*   **[BOGORBET](https://bogorbet.netlify.app/)** - Cek tampilan responsif dan kecepatan load.
+*   **[BOGORBET](https://bogorbet.pages.dev)** - Link Alternatif kedua situs dengan responsif kecepatan load. 
 ## ✨ Fitur Utama
 
 *   **Responsive Design:** Tampilan sempurna di perangkat mobile, tablet, maupun desktop.
