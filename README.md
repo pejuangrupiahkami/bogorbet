@@ -1,6 +1,6 @@
 # Bogorbet - Premium Digital Agency Landing Page
 
-![Banner Bogorbet]([https://ibb.co.com/TxwTT504])
+![Tampilan Landing Page Bogorbet](https://i.ibb.co.com/21F66BMv/bogorbet.png)
 
 AgenceX adalah solusi landing page modern yang dirancang khusus untuk agensi digital, startup, dan profesional kreatif. Dibangun dengan fokus pada kecepatan performa, desain responsif, dan optimasi struktur kode untuk pengalaman pengguna yang maksimal.
 
