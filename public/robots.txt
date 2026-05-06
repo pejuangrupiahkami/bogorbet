@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bogorbet.netlify.app/sitemap-index.xml
