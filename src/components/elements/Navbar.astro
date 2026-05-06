@@ -1,0 +1,99 @@
+---
+import BtnLink from "../shared/BtnLink.astro";
+import Container from "../shared/Container.astro";
+import Navitem from "../shared/Navitem.astro";
+
+const TARGET = "https://lobby666.bogor.bet/?ref=Uz35ZZ";
+
+const navItems = [
+  { href: TARGET, text: "Home" },
+  { href: TARGET, text: "Services" },
+  { href: TARGET, text: "About us" },
+  { href: TARGET, text: "Features" }
+];
+---
+
+<header class="absolute inset-x-0 top-0 z-50 py-6">
+  <Container>
+    <nav class="w-full flex justify-between items-center gap-6 relative">
+
+      <!-- LOGO -->
+      <a
+        href={TARGET}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="flex items-center"
+      >
+        <img
+          src="/images/bogorbet.png"
+          alt="BOGORBET"
+          class="h-15 w-auto object-contain"
+        />
+      </a>
+
+      <!-- OVERLAY MOBILE -->
+      <div
+        data-nav-overlay
+        aria-hidden="true"
+        class="fixed hidden inset-0 lg:!hidden bg-box-bg bg-opacity-50 backdrop-blur-xl"
+      ></div>
+
+      <!-- MENU -->
+      <div
+        data-navbar
+        class="flex h-0 overflow-hidden lg:!h-auto lg:scale-y-100 duration-300 ease-linear
+        flex-col lg:flex-row gap-6 w-full lg:justify-between lg:items-center
+        absolute lg:relative top-full lg:top-0 bg-body lg:bg-transparent
+        border-x border-box-border lg:border-x-0"
+      >
+
+        <ul class="border-t border-box-border lg:border-t-0 px-6 lg:px-0 pt-6 lg:pt-0
+        flex flex-col lg:flex-row gap-4 text-lg text-heading-2
+        w-full lg:justify-center lg:items-center">
+
+          {navItems.map((item) => (
+            <Navitem {...item} />
+          ))}
+
+        </ul>
+
+        <!-- CTA -->
+        <div class="lg:min-w-max flex items-center w-full sm:w-max pb-6 lg:pb-0
+        border-b border-box-bg lg:border-0 px-6 lg:px-0">
+
+          <BtnLink
+            text="Get Started"
+            href={TARGET}
+            className="flex justify-center w-full sm:w-max"
+            variant="primary"
+          />
+
+        </div>
+
+      </div>
+
+      <!-- TOGGLE -->
+      <div class="min-w-max flex items-center gap-x-3">
+
+        <button
+          data-switch-theme
+          class="outline-none flex text-heading-2 rounded-full p-2 border border-box-border"
+        >
+          🌙 / ☀️
+        </button>
+
+        <button
+          data-toggle-nav
+          data-open-nav="false"
+          class="lg:hidden outline-none w-7 flex flex-col gap-1"
+        >
+          <span class="w-6 h-0.5 bg-heading-2 rounded-full"></span>
+          <span class="w-6 h-0.5 bg-heading-2 rounded-full"></span>
+          <span class="w-6 h-0.5 bg-heading-2 rounded-full"></span>
+        </button>
+
+      </div>
+
+    </nav>
+  </Container>
+</header>
