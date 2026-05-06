@@ -29,9 +29,8 @@ pnpm dev
 bun dev
 ```
 ## Test Hosting
-```
-https://bogorbet.netlify.app/
-```
+
+<a href="https://bogorbet.netlify.app/" target="_blank" rel="dofollow">Test hosting</a> | <a href="https://bogorbet.netlify.app/" target="_blank" rel="dofollow">Bogorbet</a>
 
 ## Author 
 ```
