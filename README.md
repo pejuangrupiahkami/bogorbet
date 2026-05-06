@@ -33,8 +33,10 @@ bun dev
 ```
 Design and code is completely written by John Kat and development team. 
 ```
-
-## License
+## Test Hosting
+```
+https://bogorbet.netlify.app/
+```
 
  - Design and Code is Copyright &copy; <a href="https://github.com/johnkat-mj" target="_blank">John Kat</a>
  - Licensed cover under [MIT]
