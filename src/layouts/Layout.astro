@@ -17,13 +17,12 @@ const { title } = Astro.props;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content="BOGORBET, SITUS TERPERCAYA">
-    <title>BOGORBET- {title}</title>
-
-    <!-- VERIFIKASI GOOGLE SEARCH CONSOLE START -->
+    
+    <!-- Google Search Console Verifications -->
     <meta name="google-site-verification" content="voyIcfUMBTM93QSB5hkOpOFY7wzaIe0Ke5YUYhR4-_g" />
     <meta name="google-site-verification" content="G25tCIJSmUXcl_bZKfhi0dkxUHFBeKiz4gn-wZOKcsA" />
-    <!-- VERIFIKASI GOOGLE SEARCH CONSOLE END -->
 
+    <title>BOGORBET- {title}</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
@@ -34,7 +33,7 @@ const { title } = Astro.props;
     <slot />
     <Footer />
   </body>
-  <script is:inline>
+  <script>
     const switchTheme = document.querySelector(
       "[data-switch-theme]"
     ) as HTMLButtonElement;
@@ -74,7 +73,7 @@ const { title } = Astro.props;
       });
     }
   </script>
-  <script is:inline>
+  <script>
     const toggleMenu = document.querySelector(
       "[data-toggle-nav]"
     ) as HTMLButtonElement;
