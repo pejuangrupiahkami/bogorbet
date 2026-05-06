@@ -17,11 +17,6 @@ const { title } = Astro.props;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content="BOGORBET, SITUS TERPERCAYA">
-    
-    <!-- Google Search Console Verifications -->
-    <meta name="google-site-verification" content="voyIcfUMBTM93QSB5hkOpOFY7wzaIe0Ke5YUYhR4-_g" />
-    <meta name="google-site-verification" content="G25tCIJSmUXcl_bZKfhi0dkxUHFBeKiz4gn-wZOKcsA" />
-
     <title>BOGORBET- {title}</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap"
@@ -88,15 +83,15 @@ const { title } = Astro.props;
           toggleMenu.setAttribute("data-open-nav", "true");
           overlayNav.setAttribute("data-is-visible", "true");
           document.body.classList.add("!overflow-y-hidden");
-      navbar.style.height = `${navbar.scrollHeight}px`
+		  navbar.style.height = `${navbar.scrollHeight}px`
 
         }else{
-      toggleMenu.setAttribute("data-open-nav", "false");
-          overlayNav.setAttribute("data-is-visible", "false");
-          document.body.classList.remove("!overflow-y-hidden");
-        navbar.style.height = "0px"
-    }
-    
+			toggleMenu.setAttribute("data-open-nav", "false");
+        	overlayNav.setAttribute("data-is-visible", "false");
+        	document.body.classList.remove("!overflow-y-hidden");
+		  	navbar.style.height = "0px"
+		}
+		
         
       });
 
@@ -104,14 +99,14 @@ const { title } = Astro.props;
         toggleMenu.setAttribute("data-open-nav", "false");
         overlayNav.setAttribute("data-is-visible", "false");
         document.body.classList.remove("!overflow-y-hidden");
-        navbar.style.height = "0px"
+		  	navbar.style.height = "0px"
       });
 
       overlayNav.addEventListener("click", () => {
         toggleMenu.setAttribute("data-open-nav", "false");
-          overlayNav.setAttribute("data-is-visible", "false");
-          document.body.classList.remove("!overflow-y-hidden");
-        navbar.style.height = "0px"
+        	overlayNav.setAttribute("data-is-visible", "false");
+        	document.body.classList.remove("!overflow-y-hidden");
+		  	navbar.style.height = "0px"
       });
     }
   </script>
@@ -123,9 +118,9 @@ const { title } = Astro.props;
     --color-box: 255 255 255;
     --box-border: 229 231 235;
     --box-sd: 226 232 240 / 0.5;
-  --heading-1:  23 37 84;
-  --heading-2: 31 41 55;
-  --heading-3: 55 65 81;
+	--heading-1:  23 37 84;
+	--heading-2: 31 41 55;
+	--heading-3: 55 65 81;
   }
 
   .dark {
@@ -134,10 +129,10 @@ const { title } = Astro.props;
     --box-border: 243 244 246/0.1;
     --box-sd: transparent;
 
-  
-  --heading-1:  255 255 255;
-  --heading-2:  243 244 246;
-  --heading-3:  209 213 219;
+	
+	--heading-1:  255 255 255;
+	--heading-2:  243 244 246;
+	--heading-3:  209 213 219;
   }
 
   html{
