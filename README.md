@@ -1,43 +1,48 @@
-# AgenceX - A simple landing page for a digital agency
+# Bogorbet - Premium Digital Agency Landing Page
 
-#### Preview
+![Banner Bogorbet]([https://ibb.co.com/TxwTT504])
 
- - [Demo](https://github.com/pejuangrupiahkami/bogorbet.git)
+AgenceX adalah solusi landing page modern yang dirancang khusus untuk agensi digital, startup, dan profesional kreatif. Dibangun dengan fokus pada kecepatan performa, desain responsif, dan optimasi struktur kode untuk pengalaman pengguna yang maksimal.
 
-#### Download
- - [Download from ThemeWagon](https://github.com/pejuangrupiahkami/bogorbet.git)
+## 🚀 Live Demo
 
-## Getting Started
+Anda dapat melihat versi live dari proyek ini yang di-hosting melalui Netlify:
 
-1. Clone Repository
-```
-git clone https://github.com/themewagon/agenceX.git
-```
-2. Install Dependencies
-```
-npm i
-```
-3. Run the development server:
+*   **[Official Live Preview](https://bogorbet.netlify.app/)** - Cek tampilan responsif dan kecepatan load.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-## Test Hosting
+## ✨ Fitur Utama
 
-<a href="https://bogorbet.netlify.app/" target="_blank" rel="dofollow">Test hosting</a> | <a href="https://bogorbet.netlify.app/" target="_blank" rel="dofollow">Bogorbet</a>
+*   **Responsive Design:** Tampilan sempurna di perangkat mobile, tablet, maupun desktop.
+*   **SEO Optimized:** Struktur HTML5 yang ramah mesin pencari (Google & Semrush friendly).
+*   **High Performance:** Skor Google PageSpeed yang optimal untuk pengalaman pengguna.
+*   **Modern UI/UX:** Desain bersih, elegan, dan profesional khas agensi digital masa kini.
 
-## Author 
-```
-Design and code is completely written by John Kat and development team. 
-```
-## License
+## 🛠️ Panduan Instalasi
 
- - Design and Code is Copyright &copy; <a href="https://github.com/johnkat-mj" target="_blank">John Kat</a>
- - Licensed cover under [MIT]
- - Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+Ikuti langkah-langkah di bawah ini untuk menjalankan proyek di lingkungan lokal Anda:
+
+1.  **Clone Repository**
+    ```bash
+    git clone [https://github.com/themewagon/agenceX.git](https://github.com/themewagon/agenceX.git)
+    ```
+
+2.  **Install Dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Jalankan Server Development**
+    ```bash
+    npm run dev
+    ```
+
+## 📝 Informasi Teknis
+
+Proyek ini didistribusikan sebagai bagian dari portofolio pengembangan web profesional. Kami menggunakan alur kerja modern untuk memastikan kode yang dihasilkan mudah dikelola dan dikembangkan lebih lanjut.
+
+*   **Design & Code:** Ditulis dengan dedikasi oleh [John Kat](https://github.com/johnkat-mj) dan tim pengembang.
+*   **License:** Berlisensi di bawah [MIT License].
+*   **Distribution:** Didistribusikan secara resmi melalui [ThemeWagon](https://themewagon.com).
+
+---
+*Backlink Profile: [Bogorbet](https://bogorbet.netlify.app/) | Managed by @BREAKERBIT2*
