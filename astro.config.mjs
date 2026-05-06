@@ -5,7 +5,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://bogorbet.netlify.app',
+  site: 'https://bogorbet.pages.dev',
   integrations: [sitemap()],
   vite: {
     plugins: [tailwindcss()],
