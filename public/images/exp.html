@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="og:image" content="https://i.ibb.co/9zznLd9/Nathan-Prinsley-no-estoy-feliz.gif" />
+    <link rel="icon" type="image/png" href="https://i.ibb.co/9zznLd9/Nathan-Prinsley-no-estoy-feliz.gif" />
+    <meta name="keywords" content="Breaker Bit (PROBACKLINK)" />
+    <meta name="description" content="Breakerbit" />
+    <title>Breaker Bit (PROBACKLINK)</title>
+    <!-- CSS fix background+text shadow+salju putih -->
+    <style>
+        html,
+        body {
+            background-color: black !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            height: 100%;
+            width: 100%;
+            overflow: hidden !important; /* cegah scroll */
+        }
+
+        * {
+            background-color: black !important;
+        }
+
+        .white-text {
+            color: white;
+            text-shadow: 2px 2px 5px red;
+        }
+
+        .red-text {
+            color: red;
+            text-shadow: 2px 2px 5px rgb(90, 90, 90);
+        }
+
+        .tagline {
+            color: white;
+            text-shadow: 1px 1px 3px red;
+        }
+
+        /* Efek salju warna putih murni */
+        .snowflake {
+            position: fixed;
+            background: #ffffff !important;
+            border-radius: 50%;
+            width: 5px;
+            height: 5px;
+            opacity: 0.9;
+            z-index: 9999;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <link rel="stylesheet" href="https://rawcdn.githack.com/nako48/shiraookaaaa/f37b3bb82ba199ac8df3a394d8652e56872935a9/style-css.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+
+<body oncontextmenu="return false;" onkeydown="return false;" onmousedown="return false;" onclick="playAudio();">
+    <div class="glitch-wrapper">
+        <center>
+            <img border="0" src="https://s14.gifyu.com/images/bNqtr.gif" width="280" title="Breaker Bit (PROBACKLINK)" /><br /><br />
+            <font class="white-text" size="6"><strong>Breaker Bit </strong></font>
+            <font class="red-text" size="6"><strong>(PROBACKLINK)</strong></font><br /><br />
+            <font size="4" color="white">(PROBACKLINK)</font><br />
+            <audio id="sec">
+                <source src="https://github.com/hagan1337/shellbps/raw/refs/heads/main/lelalelale.mp3" type="audio/mpeg" />
+            </audio>
+            <script>
+                var x = document.getElementById("sec");
+
+                function playAudio() {
+                    x.play();
+                }
+            </script>
+            <font color="white" size="2">
+                <a href="" target="_blank" style="color: rgb(255, 0, 0)">
+                    <i class="fab fa-youtube"></i> PROBACKLINK
+                </a>
+            </font>
+        </center>
+    </div>
+    <!-- Efek salju inline -->
+    <script>
+        (function () {
+            var snowflakes = [];
+            var browserWidth;
+            var browserHeight;
+            var numberOfSnowflakes = 50;
+
+            function setupSnowflakes() {
+                browserWidth = window.innerWidth;
+                browserHeight = window.innerHeight;
+
+                for (var i = 0; i < numberOfSnowflakes; i++) {
+                    var snowflake = document.createElement("div");
+                    snowflake.className = "snowflake";
+                    snowflake.style.left = Math.random() * browserWidth + "px";
+                    snowflake.style.top = Math.random() * browserHeight + "px";
+                    document.body.appendChild(snowflake);
+                    snowflakes.push(snowflake);
+                }
+
+                moveSnowflakes();
+            }
+
+            function moveSnowflakes() {
+                for (var i = 0; i < snowflakes.length; i++) {
+                    var snowflake = snowflakes[i];
+                    snowflake.style.top = ((parseFloat(snowflake.style.top) + 1) % browserHeight) + "px";
+                }
+
+                requestAnimationFrame(moveSnowflakes);
+            }
+
+            window.addEventListener("load", setupSnowflakes, false);
+        })();
+    </script>
+</body>
+
+</html>
