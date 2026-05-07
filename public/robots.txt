@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bogorbet.pages.dev/sitemap-0.xml
+Sitemap: https://bogorbet.pages.dev/sitemap.xml
